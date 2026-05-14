@@ -3,14 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Ashiq Agency | Premium QR Cards & Websites</title>
+  <meta name="description" content="Ashiq Agency - Premium QR Cards, Vinyl Stickers, Acrylic Displays & Custom Websites for Restaurants. Trusted by 500+ restaurants across India.">
+  <meta name="keywords" content="Ashiq Agency, QR menu, restaurant QR code, vinyl sticker QR, acrylic QR card, restaurant website, digital menu India, Chennai QR menu">
+  <meta name="author" content="Ashiq Agency">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="google38c159f7ae61492c.html">
+  
+  <!-- Open Graph Tags for Social Media -->
+  <meta property="og:title" content="Ashiq Agency | Premium QR Cards & Restaurant Websites">
+  <meta property="og:description" content="Get custom QR cards, vinyl stickers, acrylic displays and professional websites for your restaurant. Order now!">
+  <meta property="og:image" content="https://ashiqagency.com/og-image.jpg">
+  <meta property="og:url" content="https://ashiqagency.in">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ashiq Agency | Premium QR Cards & Restaurant Websites">
+  <meta name="twitter:description" content="Get custom QR cards, vinyl stickers, acrylic displays and professional websites for your restaurant.">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://ashiqagency.in">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <title>Ashiq Agency | Premium QR Cards, Vinyl Stickers & Websites for Restaurants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
 
-<nav class="navbar">
+<!-- Structured Data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Ashiq Agency",
+  "description": "Premium QR Cards, Vinyl Stickers, Acrylic Displays & Custom Websites for Restaurants",
+  "url": "https://ashiqagency.in",
+  "logo": "https://ashiqagency.in/logo.png",
+  "image": "https://ashiqagency.in/og-image.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Chennai",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919087897955",
+    "contactType": "customer service",
+    "availableLanguage": ["English", "Tamil"]
+  },
+  "sameAs": [
+    "https://instagram.com/ashiqagency",
+    "https://linkedin.com/company/ashiq-agency"
+  ],
+  "priceRange": "₹"
+}
+</script>
+
+<nav class="navbar" id="navbar">
   <div class="nav-container">
-    <div class="logo"><span class="logo-icon">✨</span> Ashiq Agency</div>
+    <div class="logo"><span class="logo-icon"></span> Ashiq Agency</div>
     <ul class="nav-links" id="navLinks">
       <li><a href="#home" class="nav-link">Home</a></li>
       <li><a href="#features" class="nav-link">Features</a></li>
@@ -23,39 +81,21 @@
   </div>
 </nav>
 
-<div class="whatsapp-float" id="whatsappFloat">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-logo">
+<div class="whatsapp-float" id="whatsappFloat" aria-label="Contact on WhatsApp">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-logo" loading="lazy">
 </div>
 
 <main>
-  <!-- Hero Section -->
   <section id="home" style="padding-top: 100px;">
     <div class="container hero">
       <div class="hero-content fade-up">
-        <h1>Custom QR Cards & Websites for Your Business 📱</h1>
+        <h1>Digital QR Menus for <span>Modern Restaurants</span> 📱</h1>
         <div class="hero-sub">Vinyl Stickers • Premium Acrylic • Custom Websites</div>
         <div class="btn-group">
           <button class="btn btn-primary" id="tryLiveDemoBtn">Try Live Demo →</button>
           <button class="btn btn-outline" id="orderWhatsappHero">Order via WhatsApp</button>
         </div>
-        
-        <!-- STATIC QR IMAGE SECTION -->
-        <div class="qr-image-section">
-          <h4>🖼️ Your QR Design Preview</h4>
-          <div class="qr-static-display">
-            <!-- =============================================== -->
-            <!-- 📍 IMAGE INSTRUCTION #1: ADD YOUR QR IMAGE HERE -->
-            <!-- =============================================== -->
-            <!-- Step 1: Place your QR image file (e.g., my-qr.png) in the same folder as this HTML file -->
-            <!-- Step 2: Replace "your-qr-image.jpg" below with your actual file name -->
-            <!-- Example: <img src="my-qr-code.png" alt="Your QR Code"> -->
-            <!-- =============================================== -->
-            <img src="display qr.webp" alt="Your QR Code" id="mainQrImage">
-          </div>
-          <p class="qr-note">⬆️ Add your QR image to the folder and update the image name above</p>
-        </div>
       </div>
-      
       <div class="phone-mock fade-up">
         <div class="mock-screen">
           <div class="mock-header">☕ SAMPLE QR MENU</div>
@@ -64,37 +104,34 @@
             <div class="menu-item"><span>🥪 Veg Sandwich</span><span>₹180</span></div>
             <div class="menu-item"><span>🍰 Tiramisu</span><span>₹290</span></div>
             <div class="menu-item"><span>🧋 Cold Coffee</span><span>₹190</span></div>
-            <div style="margin-top:16px; background:#f39c12; border-radius:40px; padding:8px; color:white;">➕ Add to Cart</div>
+            <div class="cart-btn-mock">➕ Add to Cart</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Features -->
   <section id="features">
     <div class="container">
       <h2>Why choose Ashiq Agency</h2>
       <div class="features-grid">
-        <div class="card"><div class="card-icon">🎨</div><h3>Cute QR Designs</h3><p>Beautiful, customized QR cards that match your brand.</p></div>
-        <div class="card"><div class="card-icon">🛒</div><h3>Add to Cart + Website</h3><p>Full ordering system & custom websites.</p></div>
-        <div class="card"><div class="card-icon">📇</div><h3>Premium Materials</h3><p>Vinyl stickers or premium acrylic display cards.</p></div>
+        <div class="feature-card"><div class="feature-icon">🎨✨</div><h3>Cute QR Designs</h3><p>Beautiful, customized QR cards that match your brand identity perfectly.</p></div>
+        <div class="feature-card"><div class="feature-icon">🛒🌐</div><h3>Add to Cart + Website</h3><p>Full ordering system & custom websites with free domain for 1 year.</p></div>
+        <div class="feature-card"><div class="feature-icon">📇💎</div><h3>Premium Materials</h3><p>Vinyl stickers or premium acrylic display cards with luxury finish.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- Pricing Section -->
   <section id="pricing">
     <div class="container">
       <h2>Our Pricing Plans</h2>
       <div class="pricing-special">
         <div class="pricing-grid">
-          <!-- Plan 1: Vinyl Sticker -->
           <div class="pricing-card">
             <div class="badge-new">🔥 Most Popular</div>
+            <div class="qr-sample-img"><img src="Images/vincyl.webp" alt="Vinyl Sticker QR Card" loading="lazy" width="100" height="100"></div>
             <h3>📜 Vinyl Sticker</h3>
             <div class="price">₹2,499 <small>base + ₹59/sticker</small></div>
-            <p class="price-note">Durable vinyl QR stickers for tables</p>
             <ul class="price-features">
               <li>High-quality vinyl material</li>
               <li>Water & scratch resistant</li>
@@ -103,13 +140,11 @@
             </ul>
             <button class="btn btn-outline pricing-card-btn">Get Vinyl Stickers</button>
           </div>
-          
-          <!-- Plan 2: Premium Acrylic Card -->
           <div class="pricing-card">
             <div class="badge-new">✨ Premium</div>
+            <div class="qr-sample-img"><img src="Images/display qr.webp" alt="Acrylic QR Display Card" loading="lazy" width="100" height="100"></div>
             <h3>💎 Premium Acrylic Card</h3>
             <div class="price">₹3,499 <small>base + ₹199/card</small></div>
-            <p class="price-note">Elegant acrylic display cards</p>
             <ul class="price-features">
               <li>Premium acrylic material</li>
               <li>Standing display for tabletops</li>
@@ -118,13 +153,11 @@
             </ul>
             <button class="btn btn-primary pricing-card-btn">Order Acrylic Cards</button>
           </div>
-          
-          <!-- Plan 3: Custom Website -->
           <div class="pricing-card">
             <div class="badge-new">🚀 Best Value</div>
+            <div class="qr-sample-img"><img src="Images/website Qr.webp" alt="Custom Restaurant Website" loading="lazy" width="100" height="100"></div>
             <h3>🌐 Custom Website</h3>
             <div class="price">₹4,999</div>
-            <p class="price-note">Static website + free domain for 1 year</p>
             <ul class="price-features">
               <li>Fully custom static website</li>
               <li>Free domain (1 year)</li>
@@ -134,132 +167,82 @@
             <button class="btn btn-outline pricing-card-btn">Get Website</button>
           </div>
         </div>
-
-        <!-- Card Design Preview -->
-        <div class="card-preview">
-          <h3>✨ Card Design Preview ✨</h3>
-          <div class="card-showcase">
-            <div class="card-design-sample">
-              <div class="qr-sample-img">
-                <!-- =============================================== -->
-                <!-- 📍 IMAGE INSTRUCTION #2: VINYL STICKER SAMPLE -->
-                <!-- =============================================== -->
-                <!-- Replace "vinyl-sample.jpg" with your vinyl sticker sample image -->
-                <!-- =============================================== -->
-                <img src="vincyl.webp" alt="Vinyl Sticker Sample" id="vinylSampleImg">
-              </div>
-              <h4>Vinyl Sticker</h4>
-              <p>Durable & waterproof</p>
-              <span class="badge-new">₹59 each</span>
-            </div>
-            <div class="card-design-sample">
-              <div class="qr-sample-img">
-                <!-- =============================================== -->
-                <!-- 📍 IMAGE INSTRUCTION #3: ACRYLIC CARD SAMPLE -->
-                <!-- =============================================== -->
-                <!-- Replace "acrylic-sample.jpg" with your acrylic card sample image -->
-                <!-- =============================================== -->
-                <img src="display qr.webp" alt="Acrylic Card Sample" id="acrylicSampleImg">
-              </div>
-              <h4>Acrylic Display</h4>
-              <p>Premium standing card</p>
-              <span class="badge-new">₹199 each</span>
-            </div>
-            <div class="card-design-sample">
-              <div class="qr-sample-img">
-                <!-- =============================================== -->
-                <!-- 📍 IMAGE INSTRUCTION #4: WEBSITE SAMPLE -->
-                <!-- =============================================== -->
-                <!-- Replace "website-sample.jpg" with your website sample image -->
-                <!-- =============================================== -->
-                <img src="website Qr.webp" alt="Website Sample" id="websiteSampleImg">
-              </div>
-              <h4>Custom Website</h4>
-              <p>+ Free Domain 1yr</p>
-              <span class="badge-new">₹4,999 only</span>
-            </div>
-          </div>
-          <p style="margin-top: 20px;">⭐ Upload your QR → We design it into a cute card! (Vinyl or Acrylic)</p>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Demo Section -->
   <section id="demo">
     <div class="container">
       <h2>Live Demo Experience</h2>
       <div class="demo-wrapper">
         <span style="font-size:3rem;">📱✨</span>
-        <h3 style="margin:15px 0;">Try our interactive QR menu</h3>
-        
-        <div class="demo-qr-image">
-          <!-- =============================================== -->
-          <!-- 📍 IMAGE INSTRUCTION #5: DEMO QR IMAGE -->
-          <!-- =============================================== -->
-          <!-- Replace "demo-qr.jpg" with your demo QR image file -->
-          <!-- This image will be shown in the demo section for scanning -->
-          <!-- =============================================== -->
-          <img src="Demo QR.webp" alt="Demo QR Code - Scan to try" id="demoQrImage">
+        <h3 style="margin:15px 0;">Try our interactive solutions</h3>
+        <div class="demo-card-group">
+          <div class="demo-sample-card">
+            <div class="card-icon">📷📱</div>
+            <h4>QR Code Demo</h4>
+            <div class="demo-image-preview">
+              <img src="Images/Demo QR.webp" alt="Demo QR Code - Scan to test" loading="lazy" width="140" height="140">
+            </div>
+            <p>Scan to test live menu</p>
+            <button class="demo-launch-btn" id="redirectDemoBtn">Launch QR Demo →</button>
+          </div>
+          <div class="demo-sample-card">
+            <div class="card-icon">🌐✨</div>
+            <h4>Website Demo</h4>
+            <div class="demo-image-preview">
+              <img src="Images/website Qr.webp" alt="Website Demo Preview" loading="lazy" width="140" height="140">
+            </div>
+            <p>Experience full restaurant website</p>
+            <button class="demo-launch-btn" id="websiteDemoBtn">Launch Website Demo →</button>
+          </div>
         </div>
-        <p style="margin: 10px 0;">⬆️ Scan this QR to test the live menu</p>
-        
-        <button class="btn btn-primary" id="redirectDemoBtn" style="background:#e67e22;">🚀 Launch Live Demo Menu</button>
       </div>
     </div>
   </section>
 
-  <!-- How it works -->
-<!-- How it works -->
-<section id="howitworks">
-  <div class="container">
-    <h2>How It Works</h2>
-    <div class="steps-container">
-      <div class="step">
-        <div class="step-number">1</div>
-        <h3>📲 Scan QR Code</h3>
-        <p>Customer scans the QR code on your table card or sticker using their phone camera</p>
+  <section id="howitworks">
+    <div class="container">
+      <h2>How It Works</h2>
+      <div class="steps-container">
+        <div class="step"><div class="step-number">1</div><h3>📲 Scan QR Code</h3><p>Customer scans the QR code on your table card using their phone camera</p></div>
+        <div class="step"><div class="step-number">2</div><h3>👀 View Full Menu</h3><p>Digital menu opens instantly with all items, prices, and descriptions</p></div>
+        <div class="step"><div class="step-number">3</div><h3>🛒 Add to Cart</h3><p>Customers can add items and view the total price in real-time</p></div>
+        <div class="step"><div class="step-number">4</div><h3>💰 View Total Price</h3><p>Complete cart summary with itemized list and grand total</p></div>
       </div>
-      <div class="step">
-        <div class="step-number">2</div>
-        <h3>👀 View Full Menu</h3>
-        <p>Digital menu opens instantly with all items, prices, and descriptions — no app download needed</p>
-      </div>
-      <div class="step">
-        <div class="step-number">3</div>
-        <h3>🛒 Add to Cart</h3>
-        <p>Customers can add items to cart, see quantities, and view the total price in real-time</p>
-      </div>
-      <div class="step">
-        <div class="step-number">4</div>
-        <h3>💰 View Total Price</h3>
-        <p>Complete cart summary with itemized list and grand total — perfect for bill calculation</p>
+      <p class="cart-note">⚡ Cart for viewing total price only. No online payment required.</p>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <h2>Loved by Restaurant Owners</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card"><i>“Our monthly orders increased 40% after switching to Ashiq's QR menu. The acrylic cards look so premium.”</i><br><strong>— Priya Menon, Chennai</strong></div>
+        <div class="testimonial-card"><i>“Professional design and WhatsApp orders are seamless. Exactly what we needed.”</i><br><strong>— Karthik Raj, Bangalore</strong></div>
+        <div class="testimonial-card"><i>“The team built a gorgeous website + digital menu in days. Our customers love the convenience.”</i><br><strong>— Sneha Reddy, Hyderabad</strong></div>
       </div>
     </div>
-    <p style="text-align: center; margin-top: 30px; color: #8b6b50; font-size: 0.9rem;">
-      ⚡ Note: Cart is for viewing and calculating total price only. No online payment or ordering required.
-    </p>
-  </div>
-</section>
+  </section>
 
-  <!-- Contact Form -->
   <section id="contact">
     <div class="container">
       <h2>Get Your QR Cards or Website</h2>
       <div class="contact-form">
-        <form id="leadForm">
-          <div class="form-group"><input type="text" id="name" placeholder="Your Name *" required></div>
-          <div class="form-group"><input type="text" id="businessName" placeholder="Business / Cafe Name *" required></div>
-          <div class="form-group"><input type="tel" id="phone" placeholder="Phone Number *" required></div>
+        <form id="leadForm" action="#" method="POST">
+          <div class="form-group"><input type="text" id="name" name="name" placeholder="Your Name *" required></div>
+          <div class="form-group"><input type="text" id="businessName" name="businessName" placeholder="Business / Cafe Name *" required></div>
+          <div class="form-group"><input type="tel" id="phone" name="phone" placeholder="Phone Number *" required pattern="[0-9]{10}"></div>
           <div class="form-group">
-            <select id="planSelect">
+            <select id="planSelect" name="plan">
               <option value="">Select Plan *</option>
-              <option value="Vinyl Sticker (₹1999+₹59/sticker)">Vinyl Sticker Plan</option>
-              <option value="Premium Acrylic (₹2499+₹199/card)">Premium Acrylic Card Plan</option>
-              <option value="Custom Website (₹4999)">Custom Website Plan</option>
+              <option value="Vinyl Sticker">Vinyl Sticker Plan - ₹2,499 + ₹59/sticker</option>
+              <option value="Premium Acrylic">Premium Acrylic Card Plan - ₹3,499 + ₹199/card</option>
+              <option value="Custom Website">Custom Website Plan - ₹4,999</option>
             </select>
           </div>
-          <div class="form-group"><textarea rows="3" id="message" placeholder="Tell us about your requirements (number of cards, QR ready, etc.)" required></textarea></div>
+          <div class="form-group"><textarea rows="3" id="message" name="message" placeholder="Tell us about your requirements" required></textarea></div>
+          <input type="hidden" name="timestamp" id="timestamp">
           <button type="submit" id="submitBtn">Send Request ✨</button>
           <div id="formFeedback"></div>
         </form>
@@ -267,23 +250,17 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <div class="container">
-      <p style="font-size:1.3rem; font-weight:600;">✨ Ashiq Agency</p>
-      <p>QR Cards | Vinyl Stickers | Acrylic Displays | Custom Websites</p>
-      <div class="social-links">
-        <a href="https://www.instagram.com/ashiqagency?utm_source=qr&igsh=MW5ncDZ2ZWpxOGw5cg==" id="instagramLink">📷 Instagram</a>
-        <a href="https://www.linkedin.com/in/mohammed-ashiq-ashiq?utm_source=share_via&utm_content=profile&utm_medium=member_android" id="linkedinLink">🔗 LinkedIn</a>
-        <a href="#" id="whatsappFooterLink">💬 WhatsApp</a>
-      </div>
-      <p>📞 Contact: <span class="editable-phone" id="contactPhone" contenteditable="true">+91 9087897955</span></p>
-      <p>Serving all India 🌟 | Chennai </p>
-      <p>© 2026 Ashiq Agency — QR & Web Specialists</p>
+    <div class="container footer-grid">
+      <div class="footer-col"><h4>Ashiq Agency</h4><p>Premium QR & web ecosystems for modern F&B brands.</p></div>
+      <div class="footer-col"><h4>Solutions</h4><a href="#pricing">QR Digital Menus</a><a href="#pricing">Acrylic Cards</a><a href="#pricing">Restaurant Websites</a></div>
+      <div class="footer-col"><h4>Support</h4><a href="#contact">Get Quote</a><a href="#demo">Live Demo</a><a href="#" id="footerPhone">+91 9087897955</a></div>
+      <div class="footer-col"><h4>Connect</h4><p>Chennai, India</p><div class="social-links"><a href="https://instagram.com/ashiqagency" id="instagramLink" target="_blank" rel="noopener noreferrer">📷 Instagram</a><a href="#" id="whatsappFooterLink">💬 WhatsApp</a></div></div>
     </div>
+    <p class="copyright">© 2026 Ashiq Agency — Elevating hospitality technology</p>
   </footer>
 </main>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
